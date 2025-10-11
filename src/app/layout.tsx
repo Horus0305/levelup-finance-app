@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   title: "LevelUp Finance Institute - CFA Coaching in Kalyan",
   description: "Your First Step Toward a Global Finance Career! CFA Level 1 & 2 classes in Kalyan (West). Expert mentorship, practical insights, and personal attention.",
   keywords: ["CFA", "CFA coaching", "Kalyan", "Finance Institute", "CFA Level 1", "CFA Level 2", "Finance career"],
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({

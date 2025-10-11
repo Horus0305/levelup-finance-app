@@ -117,8 +117,18 @@
   * {
     @apply border-border outline-ring/50;
   }
+  
+  html {
+    /* Prevent font scaling issues */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  
   body {
     @apply bg-background text-foreground;
+    /* Ensure consistent minimum height */
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
   }
 }
 
