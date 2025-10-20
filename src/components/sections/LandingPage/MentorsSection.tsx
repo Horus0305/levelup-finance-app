@@ -12,7 +12,8 @@ export function MentorsSection() {
             Meet Your <span className="text-primary">Mentors</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Learn from experienced professionals who are passionate about your success
+            Learn from experienced professionals who are passionate about your
+            success
           </p>
         </div>
 
@@ -27,7 +28,9 @@ export function MentorsSection() {
                   </div>
                   <div>
                     <CardTitle className="text-xl">Sarang Borse</CardTitle>
-                    <p className="text-sm text-muted-foreground">CFA Level 3 Candidate</p>
+                    <p className="text-sm text-muted-foreground">
+                      CFA Level 3 Candidate
+                    </p>
                   </div>
                 </div>
               </div>
@@ -38,13 +41,15 @@ export function MentorsSection() {
                 <span>Equity Research Specialist</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Sarang makes finance come alive! With solid hands-on experience in equity 
-                research, financial modelling, and a deep understanding of the banking & 
-                finance sector, he connects CFA theory with real-world market trends.
+                Sarang makes finance come alive! With solid hands-on experience
+                in equity research, financial modelling, and a deep
+                understanding of the banking & finance sector, he connects CFA
+                theory with real-world market trends.
               </p>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                He loves discussing macroeconomics, geopolitics, and how global events move 
-                the markets — making learning truly engaging and practical.
+                He loves discussing macroeconomics, geopolitics, and how global
+                events move the markets — making learning truly engaging and
+                practical.
               </p>
             </CardContent>
           </Card>
@@ -59,7 +64,9 @@ export function MentorsSection() {
                   </div>
                   <div>
                     <CardTitle className="text-xl">Abhishek Pawar</CardTitle>
-                    <p className="text-sm text-muted-foreground">Chartered Accountant</p>
+                    <p className="text-sm text-muted-foreground">
+                      Chartered Accountant
+                    </p>
                   </div>
                 </div>
               </div>
@@ -67,16 +74,17 @@ export function MentorsSection() {
             <CardContent className="pt-6 space-y-4">
               <div className="flex items-center gap-2 text-sm font-medium text-accent">
                 <Building2 className="h-4 w-4" />
-                <span>Finance Professional at JSW</span>
+                <span>Finance Professional</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Abhishek brings the corporate world right into the classroom. With strong 
-                experience in accounting, taxation, reporting, and corporate governance, 
-                he ensures you understand how numbers tell a company&apos;s real story.
+                Abhishek brings real-world corporate experience into the
+                classroom. With strong knowledge in accounting, taxation,
+                reporting, and corporate governance, he helps students
+                understand how numbers tell a company&apos;s story.
               </p>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                His teaching style is clear, relatable, and focused on helping students 
-                connect accounting theory to real-life business situations.
+                His teaching is clear, practical, and easy to relate to real
+                business situations.
               </p>
             </CardContent>
           </Card>

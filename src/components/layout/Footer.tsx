@@ -43,11 +43,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>info@levelupfinance.com</span>
+                <span>levelupfinanceinstitute@gmail.com </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 88792 29508 / +91 84509 17541</span>
               </div>
             </div>
           </div>

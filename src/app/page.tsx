@@ -1,9 +1,11 @@
-import { HeroSection } from "@/components/sections/HeroSection";
-import { AboutSection } from "@/components/sections/AboutSection";
-import { MentorsSection } from "@/components/sections/MentorsSection";
-import { WhyUsSection } from "@/components/sections/WhyUsSection";
-import { LocationSection } from "@/components/sections/LocationSection";
-import { ContactSection } from "@/components/sections/ContactSection";
+import {
+  HeroSection,
+  AboutSection,
+  MentorsSection,
+  WhyUsSection,
+  LocationSection,
+  ContactSection,
+} from "@/components/sections/LandingPage";
 
 export default function Home() {
   return (
