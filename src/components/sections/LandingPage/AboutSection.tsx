@@ -72,7 +72,7 @@ export function AboutSection() {
             understanding, and the confidence to clear every CFA level.
           </p>
           <p className="text-sm sm:text-base text-muted-foreground">
-            We&apos;re starting with <span className="font-semibold text-primary">CFA Level 1</span> 
+            We&apos;re starting with <span className="font-semibold text-primary">CFA Level 1 </span> 
             this 
             December and will soon launch <span className="font-semibold text-primary">Level 2</span> classes as well.
           </p>

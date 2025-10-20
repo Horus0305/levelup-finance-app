@@ -58,8 +58,7 @@ export function LocationSection() {
               </div>
               <h3 className="font-semibold text-lg">Visit Us</h3>
               <p className="text-sm text-muted-foreground max-w-xl mx-auto">
-                Our classes are based in Kalyan (West), making it easy for students 
-                from Kalyan, Dombivli, Thane, and surrounding areas to attend.
+                 Our classes are held in Kalyan (West), conveniently accessible for students from Kalyan to Karjat, Kalyan to Kasara, Dombivli, Thane, and surrounding areas.
               </p>
             </CardContent>
           </Card>
