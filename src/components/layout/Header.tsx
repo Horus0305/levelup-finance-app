@@ -65,6 +65,12 @@ export function Header() {
             Why Us
           </button>
           <button
+            onClick={() => scrollToSection("demo-lectures")}
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+          >
+            Demo
+          </button>
+          <button
             onClick={() => scrollToSection("location")}
             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
           >
@@ -115,6 +121,12 @@ export function Header() {
               className="text-sm font-medium text-left"
             >
               Why Us
+            </button>
+            <button
+              onClick={() => scrollToSection("demo-lectures")}
+              className="text-sm font-medium text-left"
+            >
+              Demo
             </button>
             <button
               onClick={() => scrollToSection("location")}

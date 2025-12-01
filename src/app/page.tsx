@@ -3,6 +3,7 @@ import {
   AboutSection,
   MentorsSection,
   WhyUsSection,
+  DemoLecturesSection,
   LocationSection,
   ContactSection,
 } from "@/components/sections/LandingPage";
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <MentorsSection />
       <WhyUsSection />
+      <DemoLecturesSection />
       <LocationSection />
       <ContactSection />
     </main>

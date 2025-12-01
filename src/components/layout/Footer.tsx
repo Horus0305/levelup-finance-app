@@ -72,6 +72,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#demo-lectures" className="hover:text-primary transition-colors">
+                  Demo Lectures
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-primary transition-colors">
                   Enroll Now
                 </a>
