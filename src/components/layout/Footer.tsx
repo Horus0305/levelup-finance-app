@@ -1,7 +1,7 @@
 "use client";
 
-import { Mail, MapPin, Phone, GraduationCap } from "lucide-react";
-// import Image from "next/image";
+import { Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -11,17 +11,13 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              {/* Logo Image - Commented for future use */}
-              {/* <Image 
+              <Image 
                 src="/logo.svg" 
                 alt="LevelUp Finance Institute Logo" 
                 width={32} 
                 height={32}
                 className="h-10 w-10"
-              /> */}
-              
-              {/* Education Icon - Current */}
-              <GraduationCap className="h-10 w-10 text-primary" />
+              />
               
               <div className="flex flex-col">
                 <span className="text-lg font-bold">LevelUp</span>

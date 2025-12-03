@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Calendar, MapPin, TrendingUp } from "lucide-react";
+import { ArrowRight, Calendar, MapPin, TrendingUp, Play } from "lucide-react";
 
 export function HeroSection() {
   const scrollToContact = () => {
@@ -58,17 +58,19 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mt-8 sm:mt-12">
-            <Button size="lg" onClick={scrollToContact} className="group w-full sm:w-auto">
-              Enroll Now
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            
             <Button size="lg" variant="outline" onClick={() => {
-              const element = document.getElementById("about");
+              const element = document.getElementById("demo-lectures");
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
               }
-            }} className="w-full sm:w-auto">
-              Learn More
+            }} className="w-full sm:w-auto border-primary/50 bg-primary/5 hover:bg-primary/10 text-primary hover:text-primary group">
+              <Play className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+              Watch Demo Lecture
+            </Button>
+            <Button size="lg" onClick={scrollToContact} className="group w-full sm:w-auto">
+              Enroll Now
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
           </div>
         </div>
