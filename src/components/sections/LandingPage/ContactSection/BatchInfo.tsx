@@ -14,11 +14,11 @@ export function BatchInfo() {
         <CardContent className="space-y-4">
           <div className="space-y-2">
             <p className="text-sm font-medium">Batch Starts:</p>
-            <p className="text-sm text-muted-foreground">Mid-December 2025</p>
+            <p className="text-sm text-muted-foreground">3rd January 2026</p>
           </div>
           <div className="space-y-2">
             <p className="text-sm font-medium">Target Exam Dates:</p>
-            <p className="text-sm text-muted-foreground">August / November 2026</p>
+            <p className="text-sm text-muted-foreground">Nov 2026 & Feb 2027</p>
           </div>
           <div className="space-y-2">
             <p className="text-sm font-medium">Level:</p>

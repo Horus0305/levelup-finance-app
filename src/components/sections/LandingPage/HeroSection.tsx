@@ -42,12 +42,12 @@ export function HeroSection() {
             <div className="rounded-lg border bg-card p-3 sm:p-4 text-center">
               <Calendar className="h-5 w-5 sm:h-6 sm:w-6 mx-auto mb-2 text-primary" />
               <p className="text-lg sm:text-sm font-semibold">Batch Starts</p>
-              <p className="text-lg  font-semibold text-primary">Mid-December 2025</p>
+              <p className="text-lg  font-semibold text-primary">3rd January 2026</p>
             </div>
             <div className="rounded-lg border bg-card p-3 sm:p-4 text-center">
               <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6 mx-auto mb-2 text-primary" />
               <p className="text-lg sm:text-sm font-semibold">Target Exams</p>
-              <p className="text-lg text-primary font-semibold">Aug & Nov 2026</p>
+              <p className="text-lg text-primary font-semibold">Nov 2026 & Feb 2027</p>
             </div>
             <div className="rounded-lg border bg-card p-3 sm:p-4 text-center">
               <MapPin className="h-5 w-5 sm:h-6 sm:w-6 mx-auto mb-2 text-primary" />
@@ -59,16 +59,19 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mt-8 sm:mt-12">
             
-            <Button size="lg" variant="outline" onClick={() => {
+            <Button size="lg" onClick={() => {
               const element = document.getElementById("demo-lectures");
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
               }
-            }} className="w-full sm:w-auto border-primary/50 bg-primary/5 hover:bg-primary/10 text-primary hover:text-primary group">
-              <Play className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+            }} className="group w-full sm:w-auto">
+              <span className="relative flex h-4 w-4 mr-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75 duration-1000"></span>
+                <Play className="relative h-4 w-4 transition-transform group-hover:scale-110" />
+              </span>
               Watch Demo Lecture
             </Button>
-            <Button size="lg" onClick={scrollToContact} className="group w-full sm:w-auto">
+            <Button size="lg" variant="outline" onClick={scrollToContact} className="w-full sm:w-auto border-primary/50 bg-primary/5 hover:bg-primary/10 text-primary hover:text-primary group">
               Enroll Now
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
